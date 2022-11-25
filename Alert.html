@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="/Alert.css">
     <title>Alert_Box</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()">Click</button>
+        <div class="popup" id="pop">
+            <img src="/check-tick-icon-14156.png"alt="Eror loading">
+            <h2>Thank You!</h2>
+            <p>Your detils has submitted sucessfully. Thanks!</p>
+            <button type="button" class="btn1" onclick="closePopup()">OK</button>
+        </div>
+    </div>
+    <script src="/Alert.js"></script>
+
 </body>
+
 </html>
